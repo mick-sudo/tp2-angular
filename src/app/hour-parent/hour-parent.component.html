@@ -1,0 +1,5 @@
+<p>hour-parent works!</p>
+<span *ngFor="let hour of hours">
+  <h2>{{hour.ville}}</h2>
+  <app-hour [ville]="hour.ville" [hour]="hour.hour"></app-hour>
+</span>
